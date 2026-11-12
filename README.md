@@ -43,13 +43,13 @@ CREATE TABLE estudiantes (
 ```
 
 La aplicación está configurada para conectarse a MySQL en `127.0.0.1` con
-el usuario `root` y la contraseña `usbw`. Ajusta estos valores en `app.py` si
+el usuario `root` y la contraseña `usbw`. Ajusta estos valores en `CRUD_ESTUDIANTES/app.py` si
 tu instalación utiliza una configuración diferente.
 
 ## Ejecución
 
 ```powershell
-python app.py
+python CRUD_ESTUDIANTES/app.py
 ```
 
 Abre <http://127.0.0.1:5000> en el navegador.
