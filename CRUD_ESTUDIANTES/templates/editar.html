@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar estudiante</title>
+</head>
+<body>
+
+<h1>ACTUALIZAR ESTUDIANTE</h1>
+
+<form method="POST">
+
+    Nombre:
+    <input type="text" name="nombre"
+    value="{{ estudiante.nombre }}" required>
+    <br><br>
+
+    Apellido:
+    <input type="text" name="apellido"
+    value="{{ estudiante.apellido }}" required>
+    <br><br>
+
+    Correo:
+    <input type="email" name="correo"
+    value="{{ estudiante.correo }}" required>
+    <br><br>
+
+    Programa:
+    <input type="text" name="programa"
+    value="{{ estudiante.programa }}" required>
+    <br><br>
+
+    <button type="submit">Actualizar</button>
+
+</form>
+
+<a href="/">Regresar</a>
+
+</body>
+</html>
